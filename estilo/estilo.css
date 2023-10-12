@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'souce Sans Pro', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #00CAD1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.limite {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.secao-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.limite img {
+    width: 150px;
+}
+.link-topo {
+    margin-left: 15px;
+    padding: 10px;
+}
+.link-topo ul {
+    display: flex;
+}
+.link-topo ul li {
+    list-style: none;
+}
+.link-topo a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.link-topo a:hover {
+    color: #0c5b5e;
+    transition: 0.5s;
+}
+.banner {
+    background-image: url('../assets/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    position: absolute;
+    left: 10%;
+    top: 40%;  
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    line-height: 50px;
+}
+.secao-informacao {
+    text-align: center;
+}
+.secao-informacao h2 {
+    font-size: 25px;
+    margin: 40px 0 20px 0;
+}
+.secao-informacao p, .galeria p, .secao-contato p {
+    width: 600px;
+    margin: 0 auto;
+}
+.lista {
+    display: flex;
+    justify-content: center;
+}
+.lista img {
+    width: 180px;
+}
+.lista h3 {
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 40px 0 15px 0;
+}
+.lista ul {
+    margin-left: 60px;
+}
+.lista li {
+    width: 400px;
+    text-align: left;
+    padding: 0 5px;
+    line-height: 20px;
+}
+.galeria {
+    text-align: center;
+}
+.galeria h4, .secao-contato h4 {
+    padding: 20px 0;
+    font-size: 18px;
+}
+figure {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img img {
+    width: 300px;
+}
+figcaption {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.borda {
+    box-shadow: 1px 0px 10px #0000008e;
+}
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #00CAD1;
+    border: none;
+    box-shadow: 1px 0 5px #0000008e;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 22px;
+}
+.secao-contato {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.secao-contato p {
+    padding: 10px 0;
+    font-size: 16px;
+    width: 650px;
+}
+span {
+    font-weight: bold;
+}
+footer {
+    background-color: #0C6E71;
+    text-align: center;
+}
+footer p {
+    padding: 10px 0;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.diretios {
+    padding: 0 0 30px 0;
+}
+
+
+

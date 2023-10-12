@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'souce Sans Pro', sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #00CAD1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.limite {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.secao-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.limite img {
+    width: 150px;
+}
+.link-topo {
+    margin-left: 15px;
+}
+.link-topo ul {
+    display: flex;
+}
+.link-topo ul li {
+    list-style: none;
+}
+.link-topo a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.link-topo a:hover {
+    color: #0c5b5e;
+    transition: 0.5s;
+}
+.links-pagina ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.links-pagina li {
+    list-style: none;
+    position: relative;
+}
+.links-pagina a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 10px;
+    color: #000;
+}
+.links-pagina a:hover {
+    color: #0c5b5e;
+    transition: 0.5s;
+}
+.borda-link-pagina {
+    border: 1px solid #00CAD1;
+    width: 10px;
+    position: absolute;
+    left: 19px;
+    top: 19px;
+    width: 70%;
+}
+main {
+    margin-bottom: 60px;
+}
+h1 {
+    text-align: center;
+    padding: 40px 0 0 0;
+
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0;
+}
+p {
+    margin: 0 auto;
+    width: 580px;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.img-tabela img {
+    width: 300px;
+}
+.img-tabela {
+    display: flex;
+}
+table {
+    text-align: left;
+    width: 800px;
+    border-collapse: collapse;
+}
+ th{
+    background-color: #00CAD1;
+    color: #fff;
+    padding: 10px;
+}
+tbody td {
+    padding: 20px;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: #CDCDCD;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #F1F1F1;
+}
+footer {
+    background-color: #0C6E71;
+    text-align: center;
+}
+footer p {
+    padding: 10px 0;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.diretios {
+    padding: 0 0 30px 0;
+}
