@@ -1,5 +1,7 @@
-@media (min-width: 400px) and (max-width: 768px){
-
+@media (min-width: 325px) and (max-width: 768px){
+    main {
+        overflow-x: hidden;
+    }
     .secao-topo {
         display: flex;
         flex-direction: column;
@@ -10,50 +12,53 @@
     }
     .link-topo a {
         padding: 20px;
-        margin: 0 30px;
+        margin: 0 15px;
         font-size: 12px;
     }
     .banner {
         background-position: center;
         height: 200px;
+        width: 100%;
     }
     h1 {
         position: absolute;
         left: 5%;
-        top: 30%;  
+        top: 25%;  
         font-size: 20px;
         text-transform: uppercase;
         color: #fff;
         font-weight: normal;
-        line-height: 30px;
+        line-height: 20px;
     }
     .secao-informacao h2 {
         font-size: 20px;
         margin: 40px 0 20px 0;
     }
     .secao-informacao p, .galeria p, .secao-contato p {
-        width: 430px;
-        font-size: 14px;
+        width: 350px;
+        font-size: 12px;
     }
     figure {
         flex-direction: column;
         align-items: center;
         }
+    
     .lista img {
         display: none;
     }
     .borda {
-        width: 300px;
+        width: 250px;
         margin: 20px 0;
     }
     .lista h3 {
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
         padding: 40px 0 15px 0;
     }
     .lista li {
-        font-size: 14px;
+        font-size: 12px;
+        text-align: left;
     }
     .galeria h4, .secao-contato h4 {
         padding: 20px 0;
@@ -64,16 +69,18 @@
         text-transform: uppercase;
         font-size: 14px;
     }
+    .img img {
+        width: 250px;
+    }
     .secao-contato p {
         padding: 10px 0;
-        font-size: 14px;
-        width: 400px;
+        font-size: 12px;
+        width: 350px;
     }
-    
     footer p {
         padding: 10px 0;
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
     }
 } 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -98,6 +105,9 @@
     .secao-informacao p, .galeria p, .secao-contato p {
         width: 430px;
         font-size: 17px;
+    }
+    .lista h3 {
+        text-align: center;
     }
     .lista img {
         display: none;
